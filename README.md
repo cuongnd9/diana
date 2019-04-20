@@ -1,5 +1,9 @@
 # thinid
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![Build Status](https://travis-ci.com/cuongw/thinid.svg?branch=master)](https://travis-ci.com/cuongw/thinid)
+[![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg?style=flat-square)](https://github.com/cuongw/ting-movie/blob/master/LICENSE)
+
 🚀📦 Create 🆔 unique ID like eating 🥞 pancakes.
 
 ## Installation
@@ -21,10 +25,6 @@ console.log(thinid());
 ```sh
 Output should be '3ywbk3e0-7825-e798-90ee-948s2lmw82bd'
 ```
-
-## License
-
-![License](https://img.shields.io/github/license/cuongw/thinid.svg?style=flat-square)
 
 ## Contributors
 
