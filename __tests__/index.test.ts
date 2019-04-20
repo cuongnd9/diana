@@ -1,3 +1,7 @@
+import thinid from '../src';
+
 test('Thinid Test', () => {
-  expect('thinid').toBe('thinid');
+  const id = thinid();
+  expect(id).toHaveLength(17);
+  expect(typeof id).toEqual('string');
 });
