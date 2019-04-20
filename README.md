@@ -23,7 +23,7 @@ console.log(thinid());
 ```
 
 ```sh
-Output should be '3ywbk3e0-7825-e798-90ee-948s2lmw82bd'
+Output should be '171a7-0688a_69261'
 ```
 
 ## Contributors
