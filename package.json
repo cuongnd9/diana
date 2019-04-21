@@ -1,7 +1,7 @@
 {
   "name": "thinid",
-  "version": "0.2.0",
-  "description": "🚀📦 Create 🆔 unique ID like eating 🥞 pancakes.",
+  "version": "0.2.1",
+  "description": "🚀📦 Easy way to create 🆔 unique id.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:cuongw/thinid.git",

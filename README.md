@@ -1,10 +1,14 @@
 # thinid
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-[![Build Status](https://travis-ci.com/cuongw/thinid.svg?branch=master)](https://travis-ci.com/cuongw/thinid)
-[![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg?style=flat-square)](https://github.com/cuongw/ting-movie/blob/master/LICENSE)
+> 🚀📦 Easy way to create 🆔 unique id.
 
-🚀📦 Create 🆔 unique ID like eating 🥞 pancakes.
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
+[![Build Status](https://travis-ci.com/cuongw/thinid.svg?branch=master)](https://travis-ci.com/cuongw/thinid)
+![npm](https://img.shields.io/npm/v/thinid.svg)
+![david](https://img.shields.io/david/cuongw/magic-weather.svg)
+[![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg)](https://github.com/cuongw/ting-movie/blob/master/LICENSE)
+
+ThinId creates lovely unique ids. Easy to use, support both JavaScript and TypeScript.
 
 ## Installation
 
@@ -37,3 +41,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+MIT © [cuongw](https://github.com/cuongw)
