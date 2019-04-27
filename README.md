@@ -27,7 +27,29 @@ console.log(thinid());
 ```
 
 ```sh
-Output should be '171a7-0688a_69261'
+Output should be '13b6-351b_fb04$14b8#8983'
+```
+
+## API
+
+```javascript
+import thinid from 'thinid';
+```
+
+---------------------------------------
+
+### `thinid(length)`
+
+**Returns** `string` unique id with length option.
+
+**Example**
+
+```javascript
+thinid(9);
+```
+
+```sh
+Output should be '9jw6-745b'
 ```
 
 ## Contributors
