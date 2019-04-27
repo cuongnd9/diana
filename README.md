@@ -40,9 +40,9 @@ import thinid from 'thinid';
 
 ### `thind(length)`
 
-__Returns__ `string` unique id with length.
+**Returns** `string` unique id with length option.
 
-__Example__
+**Example**
 
 ```javascript
 thinid(10);
