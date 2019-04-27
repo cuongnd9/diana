@@ -11,3 +11,11 @@ test('Thinid Test', () => {
   expect(thinid(12)).toHaveLength(12);
   expect(thinid(32)).toHaveLength(32);
 });
+
+test('Has no collisions', () => {
+  const set = new Set();
+  for (let i = 0; i < 1000000; i++) {
+    expect(set.has(thinid())).toBeFalsy();
+    set.add(thinid());
+  }
+});
