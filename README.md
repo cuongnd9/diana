@@ -23,6 +23,8 @@ npm install -s thinid
 
 ```javascript
 import thinid from 'thinid';
+# or
+const thinid = require('thinid').default;
 
 console.log(thinid());
 ```
@@ -35,6 +37,8 @@ Output should be '13b6-351b_fb04$14b8#8983'
 
 ```javascript
 import thinid from 'thinid';
+# or
+const thinid = require('thinid').default;
 ```
 
 ---------------------------------------

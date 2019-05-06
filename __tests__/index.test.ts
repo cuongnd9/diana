@@ -14,7 +14,7 @@ test('Thinid Test', () => {
 
 test('Has no collisions', () => {
   const set = new Set();
-  for (let i = 0; i < 1000000; i++) {
+  for (let i = 0; i < 100000; i++) {
     expect(set.has(thinid())).toBeFalsy();
     set.add(thinid());
   }

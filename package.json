@@ -1,12 +1,17 @@
 {
   "name": "thinid",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "🚀📦 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:cuongw/thinid.git",
   "author": "Cuong Duy Nguyen",
-  "keywords": ["unique-id", "uid", "thinid", "id"],
+  "keywords": [
+    "unique-id",
+    "uid",
+    "thinid",
+    "id"
+  ],
   "license": "MIT",
   "files": [
     "lib/**/*"
