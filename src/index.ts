@@ -38,7 +38,7 @@ function defaultId(): string {
  * Create a lovely Id with thinid.
  * @param length Length of Id.
  */
-export default function thinid(length?: number): string {
+function thinid(length?: number): string {
   if (!length || length <= 0) {
     return defaultId();
   }
@@ -52,3 +52,5 @@ export default function thinid(length?: number): string {
   }
   return result;
 }
+
+export default thinid;
