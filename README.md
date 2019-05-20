@@ -28,7 +28,7 @@ import thinid from 'thinid';
 
 **For CommonJS**
 ```javascript
-const thinid = require('thinid').default;
+const thinid = require('thinid');
 ```
 
 ```javascript
@@ -48,7 +48,7 @@ import thinid from 'thinid';
 
 **For CommonJS**
 ```javascript
-const thinid = require('thinid').default;
+const thinid = require('thinid');
 ```
 
 ---------------------------------------
