@@ -53,4 +53,4 @@ function thinid(length?: number): string {
   return result;
 }
 
-export default thinid;
+export = thinid;

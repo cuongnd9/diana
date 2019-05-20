@@ -1,6 +1,6 @@
 {
   "name": "thinid",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "🚀📦 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
