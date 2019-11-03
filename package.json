@@ -1,7 +1,7 @@
 {
   "name": "thinid",
   "version": "0.5.0",
-  "description": "🚀📦 Easy way to create 🆔 unique ids.",
+  "description": "🚀📦 Easy way to create 🆔 unique id and number code.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:cuongw/thinid.git",
@@ -24,6 +24,7 @@
   },
   "scripts": {
     "start": "node ./lib/index.js",
+    "start:dev": "ts-node ./src/index.ts",
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -40,6 +41,7 @@
     "jest": "^24.7.1",
     "prettier": "^1.17.0",
     "ts-jest": "^24.0.2",
+    "ts-node": "^8.4.1",
     "tsc": "^1.20150623.0",
     "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
