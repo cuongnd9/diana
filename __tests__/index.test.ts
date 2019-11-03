@@ -1,21 +1,21 @@
-import thinid from '../src';
+import { uid } from '../src';
 
-test('Thinid Test', () => {
-  expect(typeof thinid()).toEqual('string');
-  expect(typeof thinid(0)).toEqual('string');
-  expect(typeof thinid(12)).toEqual('string');
-  expect(typeof thinid(32)).toEqual('string');
+test('should create a unique id', () => {
+  expect(typeof uid()).toEqual('string');
+  expect(typeof uid(0)).toEqual('string');
+  expect(typeof uid(12)).toEqual('string');
+  expect(typeof uid(32)).toEqual('string');
 
-  expect(thinid()).toHaveLength(24);
-  expect(thinid(0)).toHaveLength(24);
-  expect(thinid(12)).toHaveLength(12);
-  expect(thinid(32)).toHaveLength(32);
+  expect(uid()).toHaveLength(24);
+  expect(uid(0)).toHaveLength(24);
+  expect(uid(12)).toHaveLength(12);
+  expect(uid(32)).toHaveLength(32);
 });
 
-test('Has no collisions', () => {
+test('should not have ids', () => {
   const set = new Set();
-  for (let i = 0; i < 100000; i++) {
-    expect(set.has(thinid())).toBeFalsy();
-    set.add(thinid());
+  for (let i = 0; i < 10000; i++) {
+    expect(set.has(uid())).toBeFalsy();
+    set.add(uid());
   }
 });
