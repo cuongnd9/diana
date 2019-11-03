@@ -7,13 +7,13 @@ function code(length: number = 4) {
   if (length < 4 || length > 6) {
     length = 4;
   }
-  let code = '';
+  let result = '';
   for (let i = 0; i < length; i++) {
-    code += i === 2 
-    ? code.charAt(1)
+    result += i === 2 
+    ? result.charAt(1)
     : Math.floor(Math.random() * 10);
   }
-  return code;
+  return result;
 }
 
 export default code;
