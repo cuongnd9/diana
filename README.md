@@ -9,8 +9,6 @@
 [![Hits-of-Code](https://hitsofcode.com/github/cuongw/thinid)](https://hitsofcode.com/view/github/cuongw/thinid)
 [![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg)](https://github.com/cuongw/thinid/blob/master/LICENSE)
 
-ThinId creates lovely unique ids. Easy to use, support both JavaScript and TypeScript.
-
 ## Installation
 
 ```sh
@@ -56,6 +54,7 @@ thinid(9);
 ```sh
 Output should be '9jw6-745b'
 ```
+------------------------------------------------------------------------------------------
 
 ### `code(length)`
 
