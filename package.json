@@ -1,7 +1,7 @@
 {
   "name": "@cuongw/thinid",
-  "version": "0.5.0",
-  "description": "🚀📦 Easy way to create 🆔 unique id and number code.",
+  "version": "0.5.5",
+  "description": "🚀📦 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "https://github.com/cuongw/thinid.git",
