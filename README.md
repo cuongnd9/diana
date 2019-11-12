@@ -1,6 +1,6 @@
 # thinid
 
-> 🚀📦 Easy way to create 🆔 unique id and number code.
+🚀📦 Easy way to create 🆔 unique ids.
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.com/cuongw/thinid.svg?branch=master)](https://travis-ci.com/cuongw/thinid)
@@ -8,6 +8,8 @@
 ![david](https://img.shields.io/david/cuongw/thinid.svg)
 [![Hits-of-Code](https://hitsofcode.com/github/cuongw/thinid)](https://hitsofcode.com/view/github/cuongw/thinid)
 [![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg)](https://github.com/cuongw/thinid/blob/master/LICENSE)
+
+ThinId creates lovely unique ids. Easy to use, support both JavaScript and TypeScript.
 
 ## Installation
 
@@ -20,28 +22,28 @@ npm install -s thinid
 ## Usage
 
 **For ES6 or ESNext**
+
 ```javascript
-import { uid, code } from 'thinid';
+import { thinid } from 'thinid';
 ```
 
 **For CommonJS**
+
 ```javascript
-const { uid, code } = require('thinid');
+const { thinid } = require('thinid');
 ```
 
 ```javascript
-console.log(uid());
-console.log(code());
+console.log(thinid());
 ```
 
 ```sh
 Output should be '13b6-351b_fb04$14b8#8983'
-Output should be '1998'
 ```
 
 ## API
 
-### `uid(length)`
+### `thinid(length)`
 
 **Returns** `string` unique id with length option.
 
@@ -54,21 +56,8 @@ thinid(9);
 ```sh
 Output should be '9jw6-745b'
 ```
-------------------------------------------------------------------------------------------
 
-### `code(length)`
-
-**Returns** `string` unique id with length option (length from 4 to 6).
-
-**Example**
-
-```javascript
-code(6);
-```
-
-```sh
-Output should be '122856'
-```
+---
 
 ## Contributors
 
