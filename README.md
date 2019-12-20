@@ -5,6 +5,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![Build Status](https://travis-ci.com/cuongw/thinid.svg?branch=master)](https://travis-ci.com/cuongw/thinid)
 ![npm](https://img.shields.io/npm/v/thinid.svg)
+![npm](https://img.shields.io/npm/dw/thinid)
 ![david](https://img.shields.io/david/cuongw/thinid.svg)
 [![Hits-of-Code](https://hitsofcode.com/github/cuongw/thinid)](https://hitsofcode.com/view/github/cuongw/thinid)
 [![GitHub](https://img.shields.io/github/license/cuongw/thinid.svg)](https://github.com/cuongw/thinid/blob/master/LICENSE)
