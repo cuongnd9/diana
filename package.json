@@ -1,10 +1,10 @@
 {
-  "name": "@cuongw/thinid",
-  "version": "0.5.5",
+  "name": "@103cuong/thinid",
+  "version": "0.5.1",
   "description": "🚀📦 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "repository": "https://github.com/cuongw/thinid.git",
+  "repository": "https://github.com/103cuong/thinid.git",
   "author": "Cuong Duy Nguyen",
   "keywords": [
     "unique-id",
@@ -20,7 +20,7 @@
     "lib/**/*"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@cuongw"
+    "registry": "https://npm.pkg.github.com/@103cuong"
   },
   "scripts": {
     "start": "node ./lib/index.js",
