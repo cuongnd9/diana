@@ -1,19 +1,16 @@
 {
-  "name": "@103cuong/thinid",
-  "version": "0.5.1",
-  "description": "🚀📦 Easy way to create 🆔 unique ids.",
+  "name": "@103cuong/diana",
+  "version": "0.6.0",
+  "description": "👸🏻 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "repository": "https://github.com/103cuong/thinid.git",
+  "repository": "https://github.com/103cuong/diana.git",
   "author": "Cuong Duy Nguyen",
   "keywords": [
     "unique-id",
     "uid",
-    "thinid",
-    "id",
-    "code",
-    "number-code",
-    "number"
+    "diana",
+    "id"
   ],
   "license": "MIT",
   "files": [
