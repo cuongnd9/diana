@@ -35,10 +35,10 @@ function defaultId(): string {
 }
 
 /**
- * Create a lovely Id with thinid.
+ * Create a lovely Id with diana.
  * @param length Length of Id.
  */
-export function thinid(length?: number): string {
+export function diana(length?: number): string {
   if (!length || length <= 0) {
     return defaultId();
   }

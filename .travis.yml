@@ -10,9 +10,7 @@ branches:
   - master
 
 install:
-  - npm uninstall typescript --no-save
-  - npm uninstall tslint --no-save
-  - npm install
+  - yarn
 
 cache:
   directories:
