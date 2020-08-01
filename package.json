@@ -17,7 +17,7 @@
     "lib/**/*"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@103cuong"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "start": "node ./lib/index.js",
