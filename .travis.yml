@@ -11,6 +11,7 @@ branches:
 
 install:
   - yarn
+  - yarn test
 
 cache:
   directories:
