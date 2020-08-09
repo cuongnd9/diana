@@ -10,46 +10,26 @@
 [![Hits-of-Code](https://hitsofcode.com/github/103cuong/diana)](https://hitsofcode.com/view/github/103cuong/diana)
 [![GitHub](https://img.shields.io/github/license/103cuong/diana.svg)](https://github.com/103cuong/diana/blob/master/LICENSE)
 
-diana creates lovely unique ids. Easy to use, support both JavaScript and TypeScript.
-
-## Installation
+## 🧰 installation
 
 ```sh
 yarn add diana-js
 ```
 
-## Usage
-
-**For ES6 or ESNext**
+## 🧑🏻‍💻 usage
 
 ```javascript
 import { diana } from 'diana-js';
 console.log(diana());
 ```
 
-```sh
-Output should be '13b6-351b_fb04$14b8#8983'
+## 🌳 API
+
+```ts
+diana(length:? number): string // default length is 16
 ```
 
-## API
-
-### `diana(length)`
-
-**Returns** `string` unique id with length option.
-
-**Example**
-
-```javascript
-diana(9);
-```
-
-```sh
-Output should be '9jw6-745b'
-```
-
----
-
-## Contributors
+## 🤝 contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -61,6 +41,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-## License
+## 🔖 license
 
-MIT © [103cuong](https://github.com/103cuong)
+MIT © [Cuong Tran](https://github.com/103cuong)
