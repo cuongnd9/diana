@@ -1,15 +1,16 @@
 {
-  "name": "@103cuong/diana",
-  "version": "0.6.0",
+  "name": "@103cuong/diana-js",
+  "version": "0.7.0",
   "description": "👸🏻 Easy way to create 🆔 unique ids.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "https://github.com/103cuong/diana.git",
-  "author": "Cuong Duy Nguyen",
+  "author": "Cuong Tran",
   "keywords": [
     "unique-id",
     "uid",
     "diana",
+    "diana-js",
     "id"
   ],
   "license": "MIT",

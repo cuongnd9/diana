@@ -1,54 +1,38 @@
 /**
- * Create a random string with length equals 4.
- */
-function s4(): string {
-  return Math.round(new Date().getTime() * Math.random())
-    .toString(16)
-    .substr(0, 4);
-}
-
-/**
- * Create a random number between 0 and (length - 1).
- * @param length Length of chaining numbers.
- */
-function ramdomNumber(length: number): number {
-  return Math.floor(Math.random() * length);
-}
-
-/**
- * Create a default Id with length equals 24.
- */
-function defaultId(): string {
-  const charCodes = ['-', '_', '@', '#', '$', '%', '^', '&', '*'];
-  const { length } = charCodes;
-  return (
-    s4() +
-    charCodes[ramdomNumber(length)] +
-    s4() +
-    charCodes[ramdomNumber(length)] +
-    s4() +
-    charCodes[ramdomNumber(length)] +
-    s4() +
-    charCodes[ramdomNumber(length)] +
-    s4()
-  );
-}
-
-/**
- * Create a lovely Id with diana.
+ * Generate unique id.
  * @param length Length of Id.
  */
-export function diana(length?: number): string {
-  if (!length || length <= 0) {
-    return defaultId();
+export function diana(length = 16): string {
+  if (length <= 0) {
+    length = 16
   }
+  return randomString(length);
+}
 
-  const defaultLength = defaultId().length;
-  const x = length % defaultLength;
-  const y = Math.floor(length / defaultLength);
-  let result = defaultId().substr(0, x);
-  for (let i = 0; i < y; i++) {
-    result += defaultId();
+/**
+ * Create a random string with length.
+ * @param length string length.
+ */
+function randomString(length: number): string {
+  const pool = ['-', '_', '@', '#', '$', '%', '^', '&', '*'];
+  let data = '';
+  let i = 0;
+  while(i < length) {
+    if (ramdomNumber(0, pool.length) === 0) {
+      data = data.concat(pool[ramdomNumber(0, pool.length)]);
+    } else {
+      data = data.concat(String.fromCharCode(ramdomNumber(97, 122)));
+    }
+    i++;
   }
-  return result;
+  return data;
+}
+
+/**
+ * Create a random integer from min to max - 1.
+ * @param min min number.
+ * @param max max number.
+ */
+function ramdomNumber(min: number, max: number): number {
+  return min + Math.floor(Math.random() * (max - min));
 }
